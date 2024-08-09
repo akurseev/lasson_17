@@ -117,7 +117,12 @@ body {
 }
 
 .gallery {
-    
+    max-width: 1244px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 435px);
+    grid-auto-flow: dense;
+    gap: 30px;
 }
 
 .gallery__card {
